@@ -128,7 +128,7 @@ class Ubiquitous_Blocks_Display_Reusable_Blocks {
 		$query_bottom = $this->query_reusable_blocks( $post_type, 'bottom' );
 
 		// Run query.
-		$reusable = new WP_Query( $query_top );
+		$reusable = new WP_Query( $query_bottom );
 
 		$new_content = '';
 

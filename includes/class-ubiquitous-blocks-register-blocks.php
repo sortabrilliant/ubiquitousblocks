@@ -100,10 +100,7 @@ class Ubiquitous_Blocks_Display_Reusable_Blocks {
 			while ( $reusable->have_posts() ) {
 				$reusable->the_post();
 
-				$new_content = get_the_content();
-
-				$new_content = apply_filters( 'the_content', $new_content );
-				$new_content = str_replace( ']]>', ']]&gt;', $new_content );
+				$block_content .= get_the_content();
 			}
 		}
 
@@ -139,10 +136,7 @@ class Ubiquitous_Blocks_Display_Reusable_Blocks {
 			while ( $reusable->have_posts() ) {
 				$reusable->the_post();
 
-				$new_content = get_the_content();
-
-				$new_content = apply_filters( 'the_content', $new_content );
-				$new_content = str_replace( ']]>', ']]&gt;', $new_content );
+				$block_content .= get_the_content();
 			}
 		}
 

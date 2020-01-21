@@ -94,7 +94,7 @@ class Ubiquitous_Blocks_Display_Reusable_Blocks {
 		// Run query.
 		$reusable = new WP_Query( $query_top );
 
-		$new_content = '';
+		$block_content = '';
 
 		if ( $reusable->have_posts() ) {
 			while ( $reusable->have_posts() ) {
@@ -130,7 +130,7 @@ class Ubiquitous_Blocks_Display_Reusable_Blocks {
 		// Run query.
 		$reusable = new WP_Query( $query_bottom );
 
-		$new_content = '';
+		$block_content = '';
 
 		if ( $reusable->have_posts() ) {
 			while ( $reusable->have_posts() ) {

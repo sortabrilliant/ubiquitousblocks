@@ -104,6 +104,8 @@ class Ubiquitous_Blocks_Display_Reusable_Blocks {
 			}
 		}
 
+		$new_content = str_replace( ']]>', ']]&gt;', $block_content );
+
 		$content = $new_content . $content;
 
 		/* Restore original Post Data */
@@ -139,6 +141,8 @@ class Ubiquitous_Blocks_Display_Reusable_Blocks {
 				$block_content .= get_the_content();
 			}
 		}
+
+		$new_content = str_replace( ']]>', ']]&gt;', $block_content );
 
 		$content = $content . $new_content;
 

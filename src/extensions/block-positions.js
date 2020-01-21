@@ -10,11 +10,11 @@ const blockPositions = [
 		disabled: true
 	},
 	{
-		label: __( 'Top of Content', 'ubiquitous-blocks' ),
+		label: __( 'Before all content', 'ubiquitous-blocks' ),
 		value: 'top',
 	},
 	{
-		label: __( 'Bottom of Content', 'ubiquitous-blocks' ),
+		label: __( 'After all content', 'ubiquitous-blocks' ),
 		value: 'bottom',
 	},
 ];

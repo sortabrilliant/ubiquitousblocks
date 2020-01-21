@@ -146,7 +146,7 @@ class Ubiquitous_Blocks_Display_Reusable_Blocks {
 			}
 		}
 
-		$content = $new_content . $content;
+		$content = $content . $new_content;
 
 		/* Restore original Post Data */
 		wp_reset_postdata();

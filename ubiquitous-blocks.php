@@ -2,8 +2,7 @@
 /**
  * Plugin Name: Ubiquitous Blocks
  * Plugin URI: https://github.com/seb86/ubiquitous-blocks
- * Description: Reusable Blocks are accessible via the WordPress Dashboard. The reusable blocks can also be set to stick at the top or bottom of specific post types in any order.
-
+ * Description: Display reusable blocks everywhere. With Ubiquitous Blocks you can add reusable blocks to every page/post with a few clicks of the mouse.
  * Author: Sébastien Dumont
  * Author URI: https://sebastiendumont.com
  * Version:     1.0.0

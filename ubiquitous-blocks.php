@@ -1,13 +1,13 @@
 <?php
 /**
  * Plugin Name: Ubiquitous Blocks
- * Plugin URI: https://github.com/seb86/ubiquitous-blocks
- * Description: Display reusable blocks everywhere. With Ubiquitous Blocks you can add reusable blocks to every page/post with a few clicks of the mouse.
- * Author: Sébastien Dumont
- * Author URI: https://sebastiendumont.com
+ * Plugin URI:  https://sortabrilliant.com/ubiquitous/
+ * Description: Let's make reusable blocks even easier to reuse.
+ * Author:      sorta brilliant
+ * Author URI:  https://sortabrilliant.com/
  * Version:     1.0.0
- * License: GPL2+
- * License URI: https://www.gnu.org/licenses/gpl-2.0.txt
+ * License:     GPL-2.0-or-later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  *
  * @package CGB
  */

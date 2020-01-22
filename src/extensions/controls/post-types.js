@@ -8,7 +8,11 @@ import availablePostTypes from '../available-post-types';
  */
 const { __ } = wp.i18n;
 const { withSelect, withDispatch } = wp.data;
-const { SelectControl } = wp.components;
+
+/**
+ * Block dependencies
+ */
+import Select from 'react-select';
 
 // Post Types
 const PostTypes = withDispatch( ( dispatch, props ) => {
@@ -26,8 +30,8 @@ const PostTypes = withDispatch( ( dispatch, props ) => {
 		[ '_ubiquitous_post_types' ]: select( 'core/editor' ).getEditedPostAttribute( 'meta' )[ '_ubiquitous_post_types' ] ? JSON.parse( select( 'core/editor' ).getEditedPostAttribute( 'meta' )[ '_ubiquitous_post_types' ] ) : {},
 	};
 } )( ( props ) => (
-	<SelectControl
-		multiple
+	<Select
+		isMulti='true'
 		label={ __( 'Post Types', 'ubiquitous-blocks' ) }
 		value={ props[ '_ubiquitous_post_types' ] }
 		options={ availablePostTypes }

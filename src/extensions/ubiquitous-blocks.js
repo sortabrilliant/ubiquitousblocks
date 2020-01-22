@@ -11,6 +11,7 @@ import BlockOrder from './controls/block-order';
 const { __ } = wp.i18n;
 const { registerPlugin } = wp.plugins;
 const { PluginDocumentSettingPanel } = wp.editPost;
+const { BaseControl } = wp.components;
 
 // Checks if the post type is for blocks.
 function isBlockPostType() {
@@ -30,7 +31,12 @@ registerPlugin( 'ubiquitous-document-setting-panel', {
 					initialOpen={ true }
 					className="ubiquitous-document-settings-panel"
 					>
-						<PostTypes />
+						<BaseControl
+							label={ __( 'Post Types', 'ubiquitous-blocks' ) }
+							help={ __( 'What post types should we add your blocks to?', 'ubiquitous-blocks' ) }
+						>
+							<PostTypes />
+						</BaseControl>
 						<BlockPosition />
 						<BlockOrder />
 				</PluginDocumentSettingPanel>

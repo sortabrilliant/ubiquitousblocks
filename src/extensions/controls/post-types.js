@@ -32,7 +32,7 @@ const PostTypes = withDispatch( ( dispatch, props ) => {
 		value={ props[ '_ubiquitous_post_types' ] }
 		options={ availablePostTypes }
 		onChange={ ( value ) => props.updateBlockPostTypes( value ) }
-		help={ __( 'Select the post types this reusable block will be shown on.', 'ubiquitous-blocks' ) }
+		help={ __( 'What post types should we add your blocks to?', 'ubiquitous-blocks' ) }
 	/>
 ) ) );
 

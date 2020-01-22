@@ -31,7 +31,7 @@ const BlockPosition = withDispatch( ( dispatch, props ) => {
 		value={ props[ '_ubiquitous_position' ] }
 		options={ blockPositions }
 		onChange={ ( value ) => props.updateBlockPosition( value ) }
-		help={ __( 'Select where you want the reusable block to display of every post type you selected.', 'ubiquitous-blocks' ) }
+		help={ __( 'Where do you want your blocks?', 'ubiquitous-blocks' ) }
 	/> 
 ) ) );
 

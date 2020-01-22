@@ -24,7 +24,7 @@ const BlockOrder = withDispatch( ( dispatch, props ) => {
 	<TextControl
 		label={ __( 'Order Number', 'ubiquitous-blocks' ) }
 		id={ 'ubiquitous-order-number' }
-		help={ __( 'Enter the number you wish this reusable block to show in order of.', 'ubiquitouse-blocks' ) }
+		help={ __( 'Which order should we be put them in?', 'ubiquitouse-blocks' ) }
 		type="number"
 		value={ props[ '_ubiquitous_order_number' ] }
 		onChange={ ( value ) => props.updateBlockOrder( value ) }

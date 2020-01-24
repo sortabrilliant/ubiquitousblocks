@@ -12,8 +12,16 @@ Let's make reusable blocks even easier to reuse.
 
 == Description ==
 
+Reusable blocks are great but we want to make them even better. What if you could add a reusable block to every post/page but could add it to every page/post with a few clicks of the mouse. You can with Ubiquitous Blocks.
+
 = Where can I learn more? =
+
 Learn more at [sorta brilliant](https://sortabrilliant.com/ubiquitous/).
+
+== Screenshots ==
+1. Create your reusable block.
+2. Tell us where you want it to appear.
+3. All done. 
 
 == Changelog ==
 

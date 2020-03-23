@@ -1,7 +1,6 @@
-# Folders and Grunt
-/build/
-/releases/
-/node_modules/
+# Folders
+/releases
+/node_modules
 npm-debug.log
 
 # Various file types to ignore when exporting.

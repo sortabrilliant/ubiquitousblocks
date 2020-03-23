@@ -63,12 +63,18 @@ class Ubiquitous_Blocks_Assets {
 			return;
 		}
 
+		$asset_filepath = UBIQUITOUS_BLOCKS_DIR_PATH . '/build/index.asset.php';
+		$asset_file = file_exists( $asset_filepath ) ? include $asset_filepath : [
+			'dependencies' => [],
+			'version'      => false,
+		];
+
 		// Scripts.
 		wp_enqueue_script(
 			$this->_slug . '-editor',
-			UBIQUITOUS_BLOCKS_URL_PATH . '/dist/blocks.build.js',
-			array( 'wp-blocks', 'wp-i18n', 'wp-element', 'wp-plugins', 'wp-components', 'wp-edit-post', 'wp-api', 'wp-editor', 'wp-hooks', 'wp-api-fetch' ),
-			time(),
+			UBIQUITOUS_BLOCKS_URL_PATH . '/build/index.js',
+			[ 'wp-blocks', 'wp-i18n', 'wp-element', 'wp-plugins', 'wp-components', 'wp-edit-post', 'wp-api', 'wp-editor', 'wp-hooks', 'wp-api-fetch' ],
+			$asset_file['version'],
 			false
 		);
 	} // END editor assets()

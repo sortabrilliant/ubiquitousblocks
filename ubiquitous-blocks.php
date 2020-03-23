@@ -5,7 +5,7 @@
  * Description: Let's make reusable blocks even easier to reuse.
  * Author:      sorta brilliant
  * Author URI:  https://sortabrilliant.com/
- * Version:     1.0.0
+ * Version:     1.0.1
  * License:     GPL-2.0-or-later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  *
@@ -26,7 +26,7 @@ if ( ! class_exists( 'Ubiquitous_Blocks' ) ) {
 		 * @access public
 		 * @static
 		 */
-		public static $version = '1.0.0';
+		public static $version = '1.0.1';
 
 		/**
 		 * @var Ubiquitous_Blocks - the single instance of the class.

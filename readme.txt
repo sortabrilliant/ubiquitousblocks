@@ -3,7 +3,7 @@ Contributors: sortabrilliant, sebd86
 Tags: blocks, reuseable blocks
 Requires at least: 5.0
 Tested up to: 5.4
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -24,5 +24,6 @@ This plugin is brought to you by [sorta brilliant](https://sortabrilliant.com/) 
 2. Set your options and that's it.
 
 == Changelog ==
+* 1.0.2 Reduce bundled asset size.
 * 1.0.1 Update "Tested up to" WordPress version.
 * 1.0.0 Initial Commit
